@@ -6,5 +6,5 @@ environs==14.3.0
     # via kurisutaru-elsword-patch-discord-bot (pyproject.toml)
 loguru==0.7.3
     # via kurisutaru-elsword-patch-discord-bot (pyproject.toml)
-requests==2.32.5
+requests[socks]==2.32.5
     # via kurisutaru-elsword-patch-discord-bot (pyproject.toml)
