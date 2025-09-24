@@ -3,4 +3,9 @@ name = "kurisutaru-elsword-patch-discord-bot"
 version = "0.1.0"
 description = "Add your description here"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "discord-webhook>=1.4.1",
+    "environs>=14.3.0",
+    "loguru>=0.7.3",
+    "requests[socks]>=2.32.3",
+]
